@@ -26,11 +26,11 @@ These learning modules take advantage of the Google Cloud Platform (GCP) to allo
 ## Tutorial modules
 All modules are accessed through Google Cloud Platform.
 
-Module 1 - Introduction to PyMOL (molecular visualization software)
+### Module 1 - Introduction to PyMOL (molecular visualization software)
 
 Note: If you don't have access to a PyMOL license, there is an online PyMOL GUI available in this tutorial here. Please locate relevant files in the folder titles "PyMOL-GUI" 
 
-Module 2 - Introduction to Machine Learning Methods
+### Module 2 - Introduction to Machine Learning Methods
 
 Dependencies: 
 
@@ -42,7 +42,7 @@ numpy
 
 pandas
 
-Module 3 - Applying the ML Methods to Identify Critical Protein-Protein Interactions
+### Module 3 - Applying the ML Methods to Identify Critical Protein-Protein Interactions
 
 Dependencies:
 
