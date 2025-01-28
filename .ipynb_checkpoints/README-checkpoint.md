@@ -1,6 +1,8 @@
 # Identifying Critical Protein-Protein Interactions with Machine Learning
 _This educational module will teach you how to apply machine learning methods to distiguish SARS-CoV-2 from SARS-CoV at the atomistic level. 
 
+![course card](images/diagram.png)
+
 ## Introduction
 In this module, you wil learn how to apply machine learning (ML) methods to identify critical protein-protein interactions. This will allow you to distinguish the critical residues in making SARS-CoV-2 so much more infectious and lethal compared to SARS-CoV. 
 
@@ -9,6 +11,15 @@ The set of data that we have provided is molecular dynamics trajectories. Molecu
 This is where machine learning comes into play. We can take our MD trajectories and use that as an input for machine learning methods to analyze for us. In this particular situation, we have run MD on two distinct systems and would like to know the differences between them. More specifically, the two systems are SARS-CoV bound to the human receptor, hACE2, versus SARS-CoV-2 bound to hACE2. We would like to know exactly which residues on SARS-CoV-2 ended up driving the increased infectivity that led to the global pandemic we experiences in 2020. 
 
 In this tutorial, we will apply three different ML approaches - random forest, logistic regression, and multi-layer perceptron. We will analyze the residues at the interface of where SARS-CoV or SARS-CoV2 bind to hACE2. More specifically, the input data is the inverse of the distance between the residues. The tutorial is split into three separate modules. 
+
+## Learning objectives
+
+1 - Learn the basics of biomolecule visualization with PyMOL
+2 - Understand the machine learning methods Random Forest, Multilayer Perceptron, and Neural Network
+3 - Apply the ML methods to determine which residues of SARS-CoV-2 lead to its increased infectivity compared to SARS-CoV
+
+## Getting Started
+These learning modules take advantage of the Google Cloud Platform (GCP) to allow users to easily run the notebooks for the different modules. All modules run on GCP's VertexAI platform with the notebooks in Workbench.  
 
 ## Tutorial modules
 _All modules are accessed through Google Cloud Platform.
@@ -33,11 +44,6 @@ os
 sys
 time
 
-## Learning objectives
-
-1 - learn the basics of biomolecule visualization with PyMOL
-2 - understand the machine learning methods Random Forest, Multilayer Perceptron, and Neural Network
-3 - apply the ML methods to determine which residues of SARS-CoV-2 lead to its increased infectivity compared to SARS-CoV
 
 ## Outcomes
 
