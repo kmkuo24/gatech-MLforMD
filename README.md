@@ -1,5 +1,5 @@
 # Identifying Critical Protein-Protein Interactions with Machine Learning
-_This educational module will teach you how to apply machine learning methods to distiguish SARS-CoV-2 from SARS-CoV at the atomistic level. 
+This educational module will teach you how to apply machine learning methods to distiguish SARS-CoV-2 from SARS-CoV at the atomistic level. 
 
 ![course card](images/diagram.png)
 
@@ -14,15 +14,17 @@ In this tutorial, we will apply three different ML approaches - random forest, l
 
 ## Learning objectives
 
-1 - Learn the basics of biomolecule visualization with PyMOL
-2 - Understand the machine learning methods Random Forest, Multilayer Perceptron, and Neural Network
-3 - Apply the ML methods to determine which residues of SARS-CoV-2 lead to its increased infectivity compared to SARS-CoV
+1. Learn the basics of biomolecule visualization with PyMOL
+
+2. Understand the machine learning methods Random Forest, Multilayer Perceptron, and Neural Network
+
+3. Apply the ML methods to determine which residues of SARS-CoV-2 lead to its increased infectivity compared to SARS-CoV
 
 ## Getting Started
 These learning modules take advantage of the Google Cloud Platform (GCP) to allow users to easily run the notebooks for the different modules. All modules run on GCP's VertexAI platform with the notebooks in Workbench.  
 
 ## Tutorial modules
-_All modules are accessed through Google Cloud Platform.
+All modules are accessed through Google Cloud Platform.
 
 Module 1 - Introduction to PyMOL (molecular visualization software)
 Note: If you don't have access to a PyMOL license, there is an online PyMOL GUI available in this tutorial here. Please locate relevant files in the folder titles "PyMOL-GUI" 
@@ -48,9 +50,12 @@ time
 ## Outcomes
 
 Users of the module will 
-1 - become comfortable and competent with the visualization software PyMOL and can apply the same skills in the visual analysis of their own biomolecules of choice
-2 - understand the fundamentals of the three ML methods in the module and associated Python code to run them
-3 - identify the key interactions that drive the increased binding strength of SARS-CoV-2’s RBD compared to SARS-CoV’s RBD to ACE2
-4 - analyze complex and large datasets such as the MD trajectories provided 
+1. become comfortable and competent with the visualization software PyMOL and can apply the same skills in the visual analysis of their own biomolecules of choice
+
+2. understand the fundamentals of the three ML methods in the module and associated Python code to run them
+
+3. identify the key interactions that drive the increased binding strength of SARS-CoV-2’s RBD compared to SARS-CoV’s RBD to ACE2
+
+4. analyze complex and large datasets such as the MD trajectories provided 
 
 
