@@ -32,12 +32,25 @@ In this tutorial, we will apply three different ML approaches - random forest, l
 ## **Module Design**
 
 ### Submodule 1 - Introduction To Pymol
+This section introduces PyMOL, a powerful tool for visualizing molecular structures.
 
+You’ll learn how to load protein models, navigate the 3D interface, highlight important features, and create clear visualizations. Molecular visualization is key for understanding how proteins function, how they interact with other molecules, and how structural changes can impact biology.
+
+By the end of this tutorial, you’ll be able to explore molecular structures confidently and prepare them for further analysis.
 
 ### Submodule 2 - Introduction To Machine Learning
+This section provides a general introduction to machine learning, covering essential concepts and common models.
+
+You’ll learn about key techniques such as random forests, logistic regression, and neural networks, and how these models are trained to find patterns and make predictions from data. The focus is on building an intuitive understanding of how machine learning works, laying the groundwork for applying these methods to more complex problems later.
+
+By the end of this tutorial, you’ll be comfortable with basic machine learning principles and ready to explore real-world applications.
 
 ### Submodule 3 - Applying ML to SARS-CoV-2
+In this section, you’ll apply machine learning to analyze data from molecular dynamics (MD) simulations—a kind of computational microscope that captures how molecules move and interact over time.
 
+You’ll use three machine learning models—random forests, logistic regression, and neural networks—to uncover which residues and interactions are most critical for important molecular behaviors, like protein binding and structural shifts.
+
+By the end of this tutorial, you’ll know how to combine dynamic molecular data with machine learning tools to reveal hidden patterns and drive new biological discoveries.
 
 <center><img src="images/Architecture_Diagram.png" width=1500 /></center><br><br>
 
@@ -84,6 +97,11 @@ After you work through Submodule 0 please begin working through Submodules 1 - 3
 Access to PyMOL is provided through Submodule 0. All other required software is either downloaded through code execution within the notebook or, in limited situations, accessed through internal sites using the provided links.
 
 ## **Data**
+The molecular dynamics data provided in this tutorial is from this publication originally.
+
+Pavlova, A., Zhang, Z., Acharya, A., Lynch, D.L., Pang, Y.T., Mou, Z., Parks, J.M., Chipot, C. and Gumbart, J.C., 2021. Machine learning reveals the critical interactions for SARS-CoV-2 spike protein binding to ACE2. The Journal of Physical Chemistry Letters, 12(23), pp.5494-5502.
+
+https://pubs.acs.org/doi/10.1021/acs.jpclett.1c01494
 
 ## **Funding**
 This resource was supported with funds from NIH grant P20 GM103424-21 
