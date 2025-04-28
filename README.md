@@ -91,7 +91,7 @@ After the last command completes there should be a folder name *Structural-Biolo
 </details>
 
 ## **Getting Started**
-After you work through Submodule 0 please begin working through Submodules 1 - 3 in order. Each submodule notebook will consist of some background information and activities. For the activities, you will execute the code cells and/or work within the PyMOL/AutoDock VM's that you create based on the guidance provided in Submodule 0. Submodule 4 contains **OPTIONAL** activities relevant to the knowledge and skills provided through navigating Submodules 1-3 that can be completed for extra practice.
+To begin go through the [pymol_notebook](PyMOL-GUI/pymol_notebook.ipynb) to start the Pymol instances. Once this is working go through sumbodules 1-3 in order. 
 
 ## **Software Requirements**
 Access to PyMOL is provided through Submodule 0. All other required software is either downloaded through code execution within the notebook or, in limited situations, accessed through internal sites using the provided links.
